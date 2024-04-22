@@ -1,0 +1,54 @@
+main div{
+    width: 45%;
+}
+.con-bordspel{
+    min-height: 320px;
+}
+main div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+main div p{
+    line-height: 1.5rem;
+}
+.con-bordspel{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 20px;  
+}
+main div a{
+    background-color: #2197bd;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 100px;
+    align-self: flex-end;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 1rem;
+}
+
+@media screen and (max-width: 768px){
+    main{
+        flex-direction: column;
+    }
+    main div{
+        width: 85%;
+    }
+    .con-bordspel-2 img{
+        order: 1;
+    }
+    .con-bordspel-2-beschrijving{
+        order: 2;
+    }
+}

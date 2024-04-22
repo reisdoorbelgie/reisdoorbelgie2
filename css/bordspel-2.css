@@ -1,0 +1,35 @@
+.con-bordspel-2-beschrijving{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    min-height: 300px;
+    margin-bottom: 50px;
+}
+.con-bordspel-2-beschrijving p{
+    font-size: 18px;
+}
+.con-bordspel-2-img{
+    width: 15%;
+    
+}
+.con-bordspel-2-img img{
+    min-height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+.con-bordspel-2-beschrijving .con-bordspel{
+    width: 50%;
+}
+@media screen and (max-width: 768px){
+    .con-bordspel-2-beschrijving{
+        flex-direction: column;
+        margin-top: 110px;
+        row-gap: 50px;
+    }
+    .con-bordspel-2-beschrijving .con-bordspel{
+        width: 100%;
+    }
+    .con-bordspel-2-beschrijving .con-bordspel-2-img{
+        width: 50%;
+    }
+}

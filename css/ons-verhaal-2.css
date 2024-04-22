@@ -1,0 +1,37 @@
+.con-onsverhaal{
+    width: 55%;
+    min-height: 300px;
+}
+.con-onsverhaal h1{
+    font-size: 38px;
+}
+.con-onsverhaal p{
+    font-size: 22px;
+}
+.con-onsverhaal-2 img{
+    width: 25%;
+    object-fit: fill;
+}
+.con-onsverhaal-2{
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 60px;
+}
+.con-long{
+    min-height: 400px;
+}
+@media screen and (max-width: 768px){
+    .con-onsverhaal-2{
+        flex-direction: column;
+    }
+    .con-onsverhaal {
+    width: 80%;
+    }
+    .con-onsverhaal-2 img {
+    width: 50%;
+    }
+}

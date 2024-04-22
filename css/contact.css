@@ -1,0 +1,76 @@
+h1{
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+.con-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    height: 500px;
+}
+.con-contact img{
+    width: 30%;
+    height: 100%;
+}
+.con-contact form{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 50px;
+}
+input[type=text],input[type=email],textarea{
+    padding: 9px;
+    color: white;
+}
+.con-contact input::placeholder,.con-contact textarea::placeholder{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1rem;
+}
+.con-contact input{
+    background-color: #2197BD;
+    color: white;
+    width: 100%;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+}
+.con-contact textarea{
+    height: 100px;
+    width: 100%;
+    background-color: #2197BD;
+    border: 0;
+    border-radius: 10px;
+
+}
+.con-contact button{
+    background-color: #2197bd;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 1rem;
+    border: 0;
+}
+.container-description{
+    width: 30%;
+}
+@media screen and (max-width: 768px){
+    .con-contact{
+        flex-direction: column;
+    }
+    div,.con-contact input,.con-contact form,.con-contact img, .con-contact p,.container-description {
+        width: 80%;
+    }
+    footer{
+        margin-top: 620px;
+    }
+}
